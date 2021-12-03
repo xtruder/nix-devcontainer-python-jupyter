@@ -18,6 +18,7 @@
     "PRELOAD_EXTENSIONS": "arrterian.nix-env-selector"
   },
 
+  "userEnvProbe": "loginShell",
   "overrideCommand": false,
   "updateRemoteUserUID": false,
 
