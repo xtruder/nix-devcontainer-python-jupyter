@@ -14,9 +14,6 @@
   "runArgs": [
     "--security-opt", "label=disable"
   ],
-  "containerEnv": {
-    "PRELOAD_EXTENSIONS": "arrterian.nix-env-selector"
-  },
 
   "userEnvProbe": "loginShell",
   "overrideCommand": false,
