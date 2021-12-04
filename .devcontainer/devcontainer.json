@@ -15,6 +15,10 @@
     "--security-opt", "label=disable"
   ],
 
+  "mounts": [
+    "source=nix-devcontainer-python-jupyter_nix,target=/nix,type=volume"
+  ],
+
   "userEnvProbe": "loginShell",
   "overrideCommand": false,
   "updateRemoteUserUID": false,
