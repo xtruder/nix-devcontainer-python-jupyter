@@ -1,3 +1,3 @@
-# nix-devcontainer-python-jupyer
+# nix-devcontainer-python-jupyter
 
-Example project of using nix devcontainer for jupyter development having.
+Example dev environment project of using nix devcontainer for python and jupyter notebooks.
